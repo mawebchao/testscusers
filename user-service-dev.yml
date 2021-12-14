@@ -4,3 +4,7 @@ spring:
   cloud:
     config:
       override-none: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:2001/eureka
